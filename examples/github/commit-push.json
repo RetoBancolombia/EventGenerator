@@ -1,0 +1,114 @@
+{
+    "ref": "refs/heads/develop",
+    "before": "0cc1a68aeeb011721adbfc92faecfb6d481bc284",
+    "after": "40e200b007313b55c2d82fbf713a02d7be19a8d7",
+    "repository": {
+        "id": 790463501,
+        "node_id": "R_kgDOLx2EDQ",
+        "name": "Reto",
+        "full_name": "RetoBancolombia/Reto",
+        "private": true,
+        "owner": {
+            "name": "RetoBancolombia",
+            "email": null,
+            "login": "RetoBancolombia",
+            "id": 167820875,
+            "node_id": "O_kgDOCgC-Sw",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/RetoBancolombia",
+            "type": "Organization",
+            "site_admin": false
+        },
+        "url": "https://github.com/RetoBancolombia/Reto",
+        "created_at": 1713828633,
+        "updated_at": "2024-04-22T23:30:36Z",
+        "pushed_at": 1713851805,
+        "visibility": "private",
+        "watchers": 0,
+        "default_branch": "main",
+        "master_branch": "main",
+        "organization": "RetoBancolombia",
+        "custom_properties": {}
+    },
+    "pusher": {
+        "name": "coldblade2000",
+        "email": "diegogranada7@gmail.com"
+    },
+    "organization": {
+        "login": "RetoBancolombia",
+        "id": 167820875,
+        "node_id": "O_kgDOCgC-Sw",
+        "url": "https://api.github.com/orgs/RetoBancolombia",
+        "description": null
+    },
+    "sender": {
+        "login": "coldblade2000",
+        "id": 1772063,
+        "node_id": "MDQ6VXNlcjE3NzIwNjM=",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/coldblade2000",
+        "type": "User"
+    },
+    "base_ref": null,
+    "compare": "https://github.com/RetoBancolombia/Reto/compare/0cc1a68aeeb0...40e200b00731",
+    "commits": [
+        {
+            "id": "40e200b007313b55c2d82fbf713a02d7be19a8d7",
+            "tree_id": "d2899c5c3941dc2639927c3f27174dd6678dc7c0",
+            "distinct": true,
+            "message": "[feat] initial creation of event-ingestion service",
+            "timestamp": "2024-04-23T00:54:57-05:00",
+            "url": "https://github.com/RetoBancolombia/Reto/commit/40e200b007313b55c2d82fbf713a02d7be19a8d7",
+            "author": {
+                "name": "Diego Granada M",
+                "email": "diegogranada7@gmail.com",
+                "username": "coldblade2000"
+            },
+            "committer": {
+                "name": "Diego Granada M",
+                "email": "diegogranada7@gmail.com",
+                "username": "coldblade2000"
+            },
+            "added": [
+                "event-ingestion/.idea/.gitignore",
+                "event-ingestion/.idea/event-ingestion.iml",
+                "event-ingestion/.idea/inspectionProfiles/profiles_settings.xml",
+                "event-ingestion/.idea/misc.xml",
+                "event-ingestion/.idea/modules.xml",
+                "event-ingestion/.idea/vcs.xml",
+                "event-ingestion/main.py"
+            ],
+            "removed": [],
+            "modified": []
+        }
+    ],
+    "head_commit": {
+        "id": "40e200b007313b55c2d82fbf713a02d7be19a8d7",
+        "tree_id": "d2899c5c3941dc2639927c3f27174dd6678dc7c0",
+        "distinct": true,
+        "message": "[feat] initial creation of event-ingestion service",
+        "timestamp": "2024-04-23T00:54:57-05:00",
+        "url": "https://github.com/RetoBancolombia/Reto/commit/40e200b007313b55c2d82fbf713a02d7be19a8d7",
+        "author": {
+            "name": "Diego Granada M",
+            "email": "diegogranada7@gmail.com",
+            "username": "coldblade2000"
+        },
+        "committer": {
+            "name": "Diego Granada M",
+            "email": "diegogranada7@gmail.com",
+            "username": "coldblade2000"
+        },
+        "added": [
+            "event-ingestion/.idea/.gitignore",
+            "event-ingestion/.idea/event-ingestion.iml",
+            "event-ingestion/.idea/inspectionProfiles/profiles_settings.xml",
+            "event-ingestion/.idea/misc.xml",
+            "event-ingestion/.idea/modules.xml",
+            "event-ingestion/.idea/vcs.xml",
+            "event-ingestion/main.py"
+        ],
+        "removed": [],
+        "modified": []
+    }
+}
