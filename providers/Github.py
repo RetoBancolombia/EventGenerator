@@ -29,7 +29,7 @@ class GithubProvider(Generator):
         elif event_type == "pull_request.closed":
             self._generate_pull_request_closed_event()
             self._generate_commit_event()
-        elif event_type == "workflow_run":
+        elif event_type == "pipeline_executed":
             self._generate_workflow_run_event()
 
     def _generate_pull_request_closed_event(self):
