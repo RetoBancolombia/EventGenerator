@@ -45,7 +45,7 @@ A `requirements.txt` file is provided with the required dependencies.
 To run the project using Docker, you can pull and run the pre-built image from GitHub Container Registry:
 
 ```bash
-docker run --env-file .env ghcr.io/retobancolombia/eventgenerator:latest
+docker run --env-file .env ghcr.io/retobancolombia/eventgenerator:main
 ```
 
 If you want to build the image yourself, you can use the provided `Dockerfile`:
