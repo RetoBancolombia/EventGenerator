@@ -45,14 +45,17 @@ A `requirements.txt` file is provided with the required dependencies.
 To run the project using Docker, you can pull and run the pre-built image from GitHub Container Registry:
 
 ```bash
-docker run --env-file .env ghcr.io/retobancolombia/eventgenerator:main
+docker run --env-file .env --net=host --name retobancolombia ghcr.io/retobancolombia/eventgenerator:main
 ```
+
+> [!WARNING]
+> If you are using WSL, running the Docker container with `--net=host` and running the test server locally from within Windows, you may need to use the IP address of the host machine instead of `localhost` in the `.env` file websocket URLs. You can run `echo "$(hostname).local"` in the WSL terminal to get the hostname to replace `localhost` with. [More info can be found here](https://superuser.com/questions/1679757/accessing-windows-localhost-from-wsl2/1835289#1835289)
 
 If you want to build the image yourself, you can use the provided `Dockerfile`:
 
 ```bash
 docker build -t eventgenerator .
-docker run --env-file .env eventgenerator
+docker run --env-file .env  --net=host --name retobancolombia eventgenerator
 ```
 
 #### Locally
