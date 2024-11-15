@@ -1,3 +1,4 @@
+import os
 import random
 import time
 
@@ -13,6 +14,9 @@ def worker():
     dotenv.load_dotenv()
 
     config = Config()
+
+    if os.getenv("DEBUG", "false").lower() == "true":
+        print(config)
 
     print("Worker started")
     time.sleep(5)
